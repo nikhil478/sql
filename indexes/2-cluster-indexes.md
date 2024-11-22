@@ -1,0 +1,1 @@
+Resource : https://www.sqlservercentral.com/articles/introduction-to-indexes-part-2-%e2%80%93-the-clustered-index

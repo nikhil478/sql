@@ -22,3 +22,5 @@ When Database Engine adds rows to a page during index creation, rebuild, or reor
 Low page density can increase the number of intermediate B-tree levels. This moderately increases CPU and I/O cost of finding leaf level pages in index scans and seeks.
 
 When the Query Optimizer compiles a query plan, it considers the cost of I/O needed to read the data required by the query. With low page density, there are more pages to read, therefore the cost of I/O is higher. This can impact query plan choice. For example, as page density decreases over time due to page splits, the optimizer can compile a different plan for the same query, with a different performance and resource consumption profile.
+
+Resource : https://learn.microsoft.com/en-us/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver16

@@ -1,0 +1,1 @@
+Resource: https://www.sqlservercentral.com/articles/introduction-to-indexes-part-3-%e2%80%93-the-nonclustered-index
